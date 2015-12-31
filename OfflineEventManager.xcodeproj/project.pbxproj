@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7414F8F01C21456D00A130FB /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7414F8EF1C21456D00A130FB /* EventViewController.swift */; };
+		74194ED51C327D69006C74D6 /* BarcodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74194ED41C327D69006C74D6 /* BarcodeViewController.swift */; };
+		74295CFD1C27B9F20072D975 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74295CFC1C27B9F20072D975 /* EventDetailViewController.swift */; };
+		74295CFF1C27EEBE0072D975 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74295CFE1C27EEBE0072D975 /* EntryViewController.swift */; };
 		743671A91C1A89DF000BC910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743671A81C1A89DF000BC910 /* AppDelegate.swift */; };
 		743671AB1C1A89DF000BC910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743671AA1C1A89DF000BC910 /* ViewController.swift */; };
 		743671AE1C1A89DF000BC910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743671AC1C1A89DF000BC910 /* Main.storyboard */; };
@@ -14,6 +18,9 @@
 		743671B31C1A89DF000BC910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743671B11C1A89DF000BC910 /* LaunchScreen.storyboard */; };
 		743671BE1C1A89DF000BC910 /* OfflineEventManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743671BD1C1A89DF000BC910 /* OfflineEventManagerTests.swift */; };
 		743671C91C1A89DF000BC910 /* OfflineEventManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743671C81C1A89DF000BC910 /* OfflineEventManagerUITests.swift */; };
+		74AB8B431C22847F00D9228B /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AB8B421C22847F00D9228B /* RestApiManager.swift */; };
+		74AB8B451C228F9500D9228B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AB8B441C228F9500D9228B /* SwiftyJSON.swift */; };
+		74BC1FA21C322A510059E6B2 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC1FA11C322A510059E6B2 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7414F8EF1C21456D00A130FB /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		74194ED41C327D69006C74D6 /* BarcodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeViewController.swift; sourceTree = "<group>"; };
+		74295CFC1C27B9F20072D975 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		74295CFE1C27EEBE0072D975 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		743671A51C1A89DF000BC910 /* OfflineEventManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineEventManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		743671A81C1A89DF000BC910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		743671AA1C1A89DF000BC910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		743671C41C1A89DF000BC910 /* OfflineEventManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfflineEventManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		743671C81C1A89DF000BC910 /* OfflineEventManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineEventManagerUITests.swift; sourceTree = "<group>"; };
 		743671CA1C1A89DF000BC910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AB8B421C22847F00D9228B /* RestApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		74AB8B441C228F9500D9228B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		74BC1FA11C322A510059E6B2 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		743671A71C1A89DF000BC910 /* OfflineEventManager */ = {
 			isa = PBXGroup;
 			children = (
+				74AB8B441C228F9500D9228B /* SwiftyJSON.swift */,
+				74AB8B421C22847F00D9228B /* RestApiManager.swift */,
 				743671A81C1A89DF000BC910 /* AppDelegate.swift */,
 				743671AA1C1A89DF000BC910 /* ViewController.swift */,
 				743671AC1C1A89DF000BC910 /* Main.storyboard */,
 				743671AF1C1A89DF000BC910 /* Assets.xcassets */,
 				743671B11C1A89DF000BC910 /* LaunchScreen.storyboard */,
 				743671B41C1A89DF000BC910 /* Info.plist */,
+				7414F8EF1C21456D00A130FB /* EventViewController.swift */,
+				74295CFC1C27B9F20072D975 /* EventDetailViewController.swift */,
+				74295CFE1C27EEBE0072D975 /* EntryViewController.swift */,
+				74BC1FA11C322A510059E6B2 /* ResultViewController.swift */,
+				74194ED41C327D69006C74D6 /* BarcodeViewController.swift */,
 			);
 			path = OfflineEventManager;
 			sourceTree = "<group>";
@@ -192,6 +213,7 @@
 				TargetAttributes = {
 					743671A41C1A89DF000BC910 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 42PCXEYNSJ;
 					};
 					743671B81C1A89DF000BC910 = {
 						CreatedOnToolsVersion = 7.0;
@@ -255,8 +277,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74295CFD1C27B9F20072D975 /* EventDetailViewController.swift in Sources */,
+				7414F8F01C21456D00A130FB /* EventViewController.swift in Sources */,
+				74194ED51C327D69006C74D6 /* BarcodeViewController.swift in Sources */,
 				743671AB1C1A89DF000BC910 /* ViewController.swift in Sources */,
+				74BC1FA21C322A510059E6B2 /* ResultViewController.swift in Sources */,
+				74295CFF1C27EEBE0072D975 /* EntryViewController.swift in Sources */,
+				74AB8B431C22847F00D9228B /* RestApiManager.swift in Sources */,
 				743671A91C1A89DF000BC910 /* AppDelegate.swift in Sources */,
+				74AB8B451C228F9500D9228B /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,10 +425,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OfflineEventManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ncsoft.ios.OfflineEventManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -407,10 +439,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = OfflineEventManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ncsoft.ios.OfflineEventManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -481,6 +516,7 @@
 				743671CF1C1A89DF000BC910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		743671D01C1A89DF000BC910 /* Build configuration list for PBXNativeTarget "OfflineEventManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +525,7 @@
 				743671D21C1A89DF000BC910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		743671D31C1A89DF000BC910 /* Build configuration list for PBXNativeTarget "OfflineEventManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +534,7 @@
 				743671D51C1A89DF000BC910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
